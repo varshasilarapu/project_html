@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Top section container */
+.top-container {
+    background:navy ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.top-container h1 {
+    color: white;
+    font-size: 16px;
+}
+
+.top-selection-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.brand-logo h1 {
+    font-size: 24px;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.nav-links ul li:first-child a {
+    border-bottom: 2px solid crimson;
+}
+
+.nav-btns span {
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Main section */
+.main {
+    background-color: #e3e3e3;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.left h6 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.left h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: steelblue;
+}
+
+.left p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: black;
+    padding: 12px 25px;
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+/* Right Section */
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.right img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 100px;
+}
